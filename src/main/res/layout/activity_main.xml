@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:orientation="vertical"
+
+    tools:context="${relativePackage}.${activityClass}">
+
+
+
+    <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/material_blue_grey_800"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/name1"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:fontFamily="@string/hello_world"
+
+    />
+
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="40dp"
+                  android:id="@+id/distanceText"
+                  android:textColor="@color/material_blue_grey_800"
+                  android:textSize="15sp"
+                  android:layout_margin="10dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_below="@+id/name1"
+                  android:fontFamily="@string/hello_world"
+
+    />
+        <ImageView android:layout_width="150dp"
+                       android:layout_height="150dp"
+                       android:id="@+id/distanceImage"
+                       android:layout_margin="10dp"
+                       android:layout_below="@+id/distanceText"
+                       android:layout_gravity="center_horizontal"
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="40dp"
+                  android:id="@+id/distanceOtherBeacons"
+                  android:textColor="@color/material_blue_grey_800"
+                  android:textSize="15sp"
+                  android:layout_margin="10dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_below="@+id/distanceImage"
+                  android:fontFamily="@string/hello_world"
+
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="40dp"
+                  android:id="@+id/distanceString"
+                  android:textColor="@color/material_blue_grey_800"
+                  android:textSize="15sp"
+                  android:layout_margin="10dp"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_below="@+id/distanceOtherBeacons"
+                  android:fontFamily="@string/hello_world"
+
+        />
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Home"
+                android:onClick="openPage"
+                android:textColor="@color/material_deep_teal_200"
+
+        />
+
+
+</LinearLayout></ScrollView>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+
+ android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <ImageView  android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/logo"
+                android:src="@drawable/kid_map_logo"
+                android:layout_margin="15dp"
+                android:layout_gravity="center_horizontal"
+
+    />
+
+    <TextView   android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/description"
+                android:text="This app helps keep track of your child. \nFor use with the beacon provided. \nCan be used indoors or where no wifi is available. \nEnter your child's name below"
+                android:layout_margin="25dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="@string/hello_world"
+
+
+    />
+
+    <EditText   android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/child1"
+                android:text="name"
+                android:textAlignment="center"
+                android:textColor="@color/material_grey_300"
+                android:layout_margin="25dp"
+    />
+
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:onClick="openPage"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/material_deep_teal_200"
+            android:layout_margin="25dp"
+
+
+    />
+
+
+
+</LinearLayout></ScrollView>
